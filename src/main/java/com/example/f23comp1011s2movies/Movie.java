@@ -2,7 +2,7 @@ package com.example.f23comp1011s2movies;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Movie {
+public class Movie{
     @SerializedName("Title")
     private String title;
 
@@ -14,7 +14,6 @@ public class Movie {
 
     @SerializedName("Type")
     private String type;
-
     @SerializedName("Poster")
     private String poster;
 
@@ -40,6 +39,6 @@ public class Movie {
 
     public String toString()
     {
-        return String.format("%s-%s", year, title);
+        return String.format("%s-%s",year,title);
     }
 }

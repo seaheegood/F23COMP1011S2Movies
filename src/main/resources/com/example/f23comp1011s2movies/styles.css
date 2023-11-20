@@ -32,8 +32,15 @@
 
 .list-view {
     -fx-background-radius: 20px;
+    -fx-font-size: 14pt;
 }
 
 .text-field{
+    -fx-background-radius: 20px;
+}
+
+#titlesListView{
+    -fx-padding: 10px;
+    -fx-background-color: #140d09;
     -fx-background-radius: 20px;
 }
